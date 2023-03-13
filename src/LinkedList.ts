@@ -37,7 +37,8 @@ export class LinkedList<T> {
     }
   
     findLast(element:T): number { 
-      const reversedArr = this.list.reverse()
+        const arr = [...this.list]
+      const reversedArr = arr.reverse()
       const index = reversedArr.indexOf(element)
       if (index !== -1) {
         return this.list.length - 1 - index;
