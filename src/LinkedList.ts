@@ -49,8 +49,8 @@ export class LinkedList<T> {
     clear():void { 
       this.list = []
     }
-    extend(newList: T[]): void {
-      this.list = this.list.concat(newList)
+    extend(newList: LinkedList<T>): void {
+      this.list = this.list.concat(newList.toArray())
     }
     toArray(): T[] { 
       return this.list.slice();

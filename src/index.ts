@@ -22,7 +22,11 @@ list.add(16)
 console.log(list.findFirst(16)) // 2
 console.log(list.findLast(16)) // 3
 
-list.extend([6,6,6])
+const lis2 = new LinkedList<number>()
+lis2.add(6)
+lis2.add(6)
+lis2.add(6)
+list.extend(lis2)
 console.log(list.toArray()) // [1488,15,16,16,6,6,6]
 
 console.log(list.get(1)) // 15
