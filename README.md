@@ -1,6 +1,6 @@
 # methodology_lab2
 ## Description
-
+ІМ-13, Первєєв Валентин
 * First variant of of application implements a linked list based on build-in arrays.
 
 * Second variand of the application implements a doubly linked list.
