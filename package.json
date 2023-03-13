@@ -1,0 +1,25 @@
+{
+  "name": "methodology2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Valentyn13/methodology_lab2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Valentyn13/methodology_lab2/issues"
+  },
+  "homepage": "https://github.com/Valentyn13/methodology_lab2#readme",
+  "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.0.5"
+  }
+}
