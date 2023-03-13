@@ -31,13 +31,13 @@ console.log(list.toArray()) // [1488,15,16,16,6,6,6]
 
 console.log(list.get(1)) // 15
 
-console.log(list.length()) // 7
+console.log(list.size()) // 7
 
 list.reverse()
 console.log(list.toArray()) // [6,  6,  6,16, 16, 15,1488]
 
 const clonedList = list.clone()
-console.log(clonedList) // [6,  6,  6,16, 16, 15,1488]
+console.log(clonedList.toArray()) // [6,  6,  6,16, 16, 15,1488]
 
 list.clear()
 console.log(list.toArray()) // []

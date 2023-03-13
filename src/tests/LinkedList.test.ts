@@ -112,7 +112,7 @@ describe('BaseLinkedList', () => {
     test('should return the length of the list', () => {
       linkedList.add(1);
       linkedList.add(2);
-      expect(linkedList.length()).toEqual(2);
+      expect(linkedList.size()).toEqual(2);
     });
   });
 
@@ -122,7 +122,4 @@ describe('BaseLinkedList', () => {
       expect(linkedList.toArray()).toEqual([1]);
     });
   });
-
-
-
 })
