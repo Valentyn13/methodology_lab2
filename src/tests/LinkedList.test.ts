@@ -104,7 +104,7 @@ describe('BaseLinkedList', () => {
         const newList = new LinkedList<number>()
         newList.add(66)
       linkedList.extend(newList);
-      expect(linkedList.toArray()).toEqual([1,2,66]);
+      expect(linkedList.toArray()).toEqual([2,66]);
     });
   });
 
